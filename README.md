@@ -1,0 +1,1 @@
+# gunluk-rutin-gizlilik-politikasi
