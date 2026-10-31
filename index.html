@@ -7,22 +7,38 @@
 </head>
 <body>
 <h1>Günlük Rutin – Gizlilik Politikası</h1>
-<p>Son güncelleme: 25 Ekim 2026</p>
+<p>Son güncelleme: 31 Ekim 2026</p>
 
 <p>Bu politika, Günlük Rutin uygulamasının hangi verileri, neden topladığını
 ve kimlerle paylaştığını açıklar. Uygulamanın temel görev/hatırlatma
 özellikleri cihazınızda yerel çalışır; aşağıdaki veriler yalnızca ilgili
-özellikleri (giriş, bulut yedekleme, sesli asistan, satın alma, reklam
-ölçümü) kullandığınızda ve ücretsiz sürümde reklam gösterilirken işlenir.</p>
+özellikleri (giriş, hesap ve eşitleme, bulut yedekleme, ortak çalışma, sesli
+asistan, satın alma, reklam ölçümü) kullandığınızda ve ücretsiz sürümde reklam
+gösterilirken işlenir.</p>
 
 <h2>Topladığımız Veriler ve Amaçları</h2>
 <ul>
   <li><b>Hesap bilgileri (e-posta, ad, kullanıcı kimliği):</b> Google ile
-  giriş yaptığınızda; bulut yedekleme, ortak çalışma ve premium için.</li>
-  <li><b>Görev, not ve hatırlatma içeriği:</b> Bulut yedekleme veya ortak
-  çalışma alanlarını kullandığınızda Firebase'de saklanır.</li>
-  <li><b>Ses kayıtları:</b> Sesli asistanı kullandığınızda, metne çevrilmek
-  üzere sunucuya gönderilir ve işlem sonrası silinir.</li>
+  giriş yaptığınızda; eşitleme, bulut yedekleme, ortak çalışma ve premium için.</li>
+  <li><b>Görev, not, liste ve hatırlatma içeriği:</b> Ayarlar &gt; Hesap ve
+  eşitleme'den eşitlemeyi açtığınızda görevleriniz, notlarınız, listeleriniz,
+  tamamlama geçmişiniz, odak oturumlarınız ve gün başlangıcı gibi birkaç ayarınız
+  Firebase'de saklanır ve aynı hesapla giriş yaptığınız cihazlarınızla eşitlenir.
+  Bulut yedekleme ve ortak çalışma alanlarını kullandığınızda da Firebase'de
+  saklanır; ortak alandaki görevleri, kimin eklediği ve tamamladığıyla birlikte
+  alanın üyeleri görür.</li>
+  <li><b>Sesli notlar, görev ekleri ve konum fotoğrafları:</b> Eşitleme
+  açıkken, diğer cihazlarınızda da açılabilmeleri için Firebase Storage'a
+  yüklenir.</li>
+  <li><b>Kaydettiğiniz konumlar:</b> Haritada seçtiğiniz ya da o anki
+  konumunuzla eklediğiniz yerlerin adı ve koordinatları; eşitleme açıkken
+  Firebase'de saklanır. Konumunuz yalnızca siz bir yer eklerken okunur, arka
+  planda toplanmaz.</li>
+  <li><b>Cihaz bilgisi:</b> Eşitleme için rastgele üretilen bir cihaz kimliği,
+  platform, uygulama sürümü ve bildirim belirteci; diğer cihazlarınızda yapılan
+  değişiklikleri haber vermek için.</li>
+  <li><b>Ses kayıtları (asistan):</b> Sesli asistanı kullandığınızda, metne
+  çevrilmek üzere sunucuya gönderilir ve işlem sonrası silinir.</li>
   <li><b>Komut metni:</b> Yapay zekâ asistanına yazdığınız komutlar,
   işlenmek üzere sunucuya gönderilir.</li>
   <li><b>Satın alma/abonelik bilgileri:</b> Premium aboneliği yönetmek için
@@ -33,6 +49,8 @@ ve kimlerle paylaştığını açıklar. Uygulamanın temel görev/hatırlatma
   <li><b>Geri bildirim:</b> İletişime geçtiğinizde mesajınız, cihaz modeli
   ve uygulama sürümü.</li>
 </ul>
+<p>Eşitlenen ve yedeklenen verileriniz reklam için kullanılmaz ve kimseye
+satılmaz.</p>
 
 <h2>Reklamlar</h2>
 <p>Ücretsiz sürümde, uygulamayı açarken zaman zaman tam ekran bir reklam
@@ -65,12 +83,32 @@ sıfırlayarak veya silerek de sınırlayabilirsiniz.</p>
 (Firebase, Google Play, AdMob), RevenueCat (abonelik), Meta/Facebook (reklam
 ölçümü) ve Google Gemini (yapay zekâ işleme).</p>
 
+<h2>Verilerin Saklandığı Yer</h2>
+<p>Eşitlenen ve paylaşılan görev ve not verileri Google Cloud'un Avrupa'daki
+(Belçika ve Hollanda) sunucularında; sesli notlar, ekler, fotoğraflar ve
+yedekler ABD'deki (Iowa) sunucularında saklanır. Sunucu işlevleri ABD ve
+Belçika'da çalışır.</p>
+
 <h2>Veri Güvenliği</h2>
-<p>Tüm veriler aktarım sırasında HTTPS/TLS ile şifrelenir.</p>
+<p>Tüm veriler aktarım sırasında HTTPS/TLS ile şifrelenir ve Google Cloud'da
+şifrelenmiş olarak saklanır. Eşitlenen verilerinize yalnızca kendi hesabınızla
+erişilebilir; ortak çalışma alanlarına yalnızca alanın üyeleri erişebilir.</p>
 
 <h2>Veri Saklama ve Silme</h2>
-<p>Hesabınızın ve verilerinizin silinmesini talep edebilirsiniz:
-<a href="hesap-silme.html">Hesap Silme</a>.</p>
+<ul>
+  <li>Eşitlemeyi kapattığınızda veya çıkış yaptığınızda verileriniz cihazınızda
+  kalır; buluttaki kopya siz silene kadar saklanır.</li>
+  <li>Sildiğiniz bir kaydın içeriği buluttan hemen silinir. Diğer cihazlarınızın
+  silindiğini öğrenebilmesi için içeriksiz bir iz en çok 400 gün tutulur, sonra
+  kendiliğinden silinir.</li>
+  <li>Ayarlar &gt; Hesap ve eşitleme'deki <b>Bulut verilerini sil</b>, eşitlenen
+  tüm verilerinizi ve dosyalarınızı hemen siler. <b>Hesabı sil</b> ise
+  hesabınızı, yedeklerinizi ve buluttaki tüm verilerinizi hemen siler; sahibi
+  olduğunuz ortak çalışma alanları silinir, üyesi olduklarınızdan
+  çıkarılırsınız. Cihazınızdaki görevleriniz iki durumda da yerinde kalır.</li>
+  <li>Uygulamaya erişemiyorsanız silme talebini e-postayla da
+  iletebilirsiniz: <a href="hesap-silme.html">Hesap Silme</a>.</li>
+</ul>
 
 <h2>Çocukların Gizliliği</h2>
 <p>Uygulama 18 yaş ve üzeri kullanıcılara yöneliktir; bilerek çocuklardan
