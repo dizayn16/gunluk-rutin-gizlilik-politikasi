@@ -7,14 +7,15 @@
 </head>
 <body>
 <h1>Günlük Rutin – Gizlilik Politikası</h1>
-<p>Son güncelleme: 31 Ekim 2026</p>
+<p>Son güncelleme: 5 Kasım 2026</p>
 
-<p>Bu politika, Günlük Rutin uygulamasının hangi verileri, neden topladığını
-ve kimlerle paylaştığını açıklar. Uygulamanın temel görev/hatırlatma
-özellikleri cihazınızda yerel çalışır; aşağıdaki veriler yalnızca ilgili
-özellikleri (giriş, hesap ve eşitleme, bulut yedekleme, ortak çalışma, sesli
-asistan, satın alma, reklam ölçümü) kullandığınızda ve ücretsiz sürümde reklam
-gösterilirken işlenir.</p>
+<p>Bu politika, Günlük Rutin Android uygulamasının ve Chrome ile Firefox için
+Günlük Rutin tarayıcı eklentisinin hangi verileri, neden topladığını ve
+kimlerle paylaştığını açıklar. Uygulamanın ve eklentinin temel
+görev/hatırlatma özellikleri cihazınızda yerel çalışır; aşağıdaki veriler
+yalnızca ilgili özellikleri (giriş, hesap ve eşitleme, bulut yedekleme, ortak
+çalışma, sesli asistan, sesle yazma, satın alma, reklam ölçümü) kullandığınızda
+ve uygulamanın ücretsiz sürümünde reklam gösterilirken işlenir.</p>
 
 <h2>Topladığımız Veriler ve Amaçları</h2>
 <ul>
@@ -52,10 +53,86 @@ gösterilirken işlenir.</p>
 <p>Eşitlenen ve yedeklenen verileriniz reklam için kullanılmaz ve kimseye
 satılmaz.</p>
 
+<h2>Tarayıcı Eklentisi</h2>
+<p>Eklenti, yukarıdaki verilerden yalnızca kullandığınız özelliklerin
+gerektirdiklerini işler. Uygulamadan farkları şunlardır:</p>
+<ul>
+  <li><b>Hesapsız kullanım:</b> Eklenti hesapsız da çalışır. Görevleriniz,
+  notlarınız, listeleriniz ve ayarlarınız tarayıcınızda saklanır; Google ile
+  giriş yapıp eşitlemeyi açmadığınız sürece bilgisayarınızdan çıkmaz.</li>
+  <li><b>Eşitleme:</b> Giriş yaptığınızda görevleriniz, notlarınız,
+  listeleriniz ve tamamlama geçmişiniz uygulamadaki gibi Firebase'de saklanır
+  ve cihazlarınızla eşitlenir. Cihaz bilgisi olarak rastgele bir cihaz
+  kimliği, tarayıcı türü ve eklenti sürümü kaydedilir; bildirim belirteci
+  tutulmaz.</li>
+  <li><b>Sesli notlar:</b> Eklentide kaydettiğiniz sesli notlar önce
+  tarayıcınızda saklanır. Eşitleme açıksa, diğer cihazlarınızda da
+  dinlenebilmeleri için uygulamadaki gibi Firebase Storage'a yüklenir.
+  Telefonunuzdan gelen sesli notlar, siz dinlediğinizde indirilir ve
+  tarayıcınızda saklanır.</li>
+  <li><b>Konumlar, konum fotoğrafları ve görev ekleri (premium):</b>
+  Eklentide kaydettiğiniz yerler (ad, not, koordinat), bu yerlere eklediğiniz
+  fotoğraflar ve görevlere eklediğiniz dosyalar önce tarayıcınızda saklanır.
+  Eşitleme açıksa uygulamadaki gibi Firebase'e ve Firebase Storage'a yüklenir.
+  Telefonunuzdan gelen fotoğraflar listede göründüğünde, dosyalar siz
+  açtığınızda indirilir ve tarayıcınızda saklanır.</li>
+  <li><b>Konumunuz:</b> Tarayıcınızın konumu yalnızca konum seçicide
+  "Konumum" düğmesine bastığınızda, bu izni daha önce verdiyseniz de seçiciyi
+  açtığınızda okunur; konumu tarayıcı kendi konum hizmetiyle bulur. Konumunuz
+  yalnızca kaydettiğiniz yerin koordinatı olarak saklanır, arka planda
+  toplanmaz.</li>
+  <li><b>Harita:</b> Konumlar listesinde ve konum seçicide harita
+  görüntüleri OpenStreetMap'in sunucularından istenir; bu isteklerle IP
+  adresiniz ve görüntülenen harita bölgesi OpenStreetMap Vakfı'na ulaşır
+  (<a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Vakfı
+  Gizlilik Politikası</a>). "Yol tarifi" ve "Konumu aç", yerin koordinatıyla
+  Google Haritalar'ı yeni bir sekmede açar.</li>
+  <li><b>Mikrofon:</b> Mikrofon yalnızca siz hızlı ekleme alanındaki mikrofon
+  düğmesine, "Sesli not" düğmesine ya da sesle ekleme kısayoluna (Alt+4)
+  bastığınızda açılır; konuşmanız ya da kayıt bitince kapanır.</li>
+  <li><b>Yazıya dökme (yalnızca Chrome):</b> Hızlı eklemede, sesle eklemede ve
+  sesli not kaydederken konuşmanızı Chrome, Google'ın ses tanıma hizmetiyle yazıya
+  çevirir; bunun için ses Google'a gönderilir ve
+  <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>
+  geçerlidir. Bu yazıya dökme için sunucularımıza ses gelmez, yalnızca yazı
+  gelir. Mikrofon iznini Chrome Ayarları &gt; Gizlilik ve güvenlik &gt; Site
+  ayarları &gt; Mikrofon'dan istediğiniz zaman kaldırabilirsiniz.</li>
+  <li><b>AI ile düzelt (premium):</b> Yazdığınız görev metni (en çok 500
+  karakter), diliniz, saat diliminiz, o anki saat ve gün başlangıcı ayarınızla
+  birlikte sunucumuza gönderilir ve Google Gemini ile işlenir; sonuç yalnızca
+  size döner. Sesle eklemede (Alt+4) bir görev listesine söylediğiniz şeyin
+  yazısı da premium'da aynı yolla işlenir; Notlar'a eklenen konuşma
+  gönderilmez. Kötüye kullanımı önlemek için hesabınıza bağlı kullanım
+  sayıları tutulur.</li>
+  <li><b>Premium:</b> Eklentide satın alma yapılmaz ve ödeme bilgisi
+  işlenmez. Premium'unuzun etkin olup olmadığı, giriş yaptığınız hesap için
+  abonelik sağlayıcımız RevenueCat'ten öğrenilir.</li>
+  <li><b>Web sayfaları:</b> Eklenti ziyaret ettiğiniz sayfaları okumaz ve
+  izlemez; sitelere erişim izni istemez. Hızlı ekleme penceresi yalnızca siz
+  kısayola ya da eklenti simgesine bastığınızda, o sekmenin üstünde ve sitenin
+  göremeyeceği ayrı bir çerçevede açılır. Sağ tık menüsüyle seçili metni ya da
+  sayfayı göreve çevirdiğinizde, seçtiğiniz metin ya da sayfanın başlığı ve
+  adresi görev olarak kaydedilir; eşitleme açıksa diğer cihazlarınıza da
+  gider.</li>
+  <li><b>Bildirimler:</b> Hatırlatma bildirimleri tarayıcınızda oluşturulur;
+  bunun için sunucuya veri gönderilmez.</li>
+  <li><b>Reklam ve izleme:</b> Eklentide reklam, reklam kimliği, analiz ya da
+  izleme aracı yoktur.</li>
+  <li><b>Firefox veri onayı:</b> Firefox'ta eşitlemeyi açarken, buluta
+  gidecek veri türleri (kimlik doğrulama bilgileri, kişisel bilgiler, web
+  sitesi içeriği, tarama etkinliği ve konum bilgisi) için Firefox onayınızı
+  sorar. Onay vermezseniz eklenti yalnızca yerel çalışır; onayı Firefox'un
+  Eklentiler sayfasından geri alabilirsiniz.</li>
+</ul>
+<p>Eklentinin işlediği veriler yalnızca yukarıdaki özellikleri sağlamak için
+kullanılır; satılmaz, reklam, kredi değerlendirmesi ya da başka bir amaçla
+kullanılmaz veya aktarılmaz ve güvenlik, yasal zorunluluk ya da sizin
+isteğiniz dışında kimse tarafından okunmaz.</p>
+
 <h2>Reklamlar</h2>
-<p>Ücretsiz sürümde, uygulamayı açarken zaman zaman tam ekran bir reklam
-(Google AdMob açılış reklamı) gösterilir. Premium kullanıcılara reklam
-gösterilmez.</p>
+<p>Android uygulamasının ücretsiz sürümünde, uygulamayı açarken zaman zaman
+tam ekran bir reklam (Google AdMob açılış reklamı) gösterilir. Premium
+kullanıcılara ve tarayıcı eklentisinde reklam gösterilmez.</p>
 <p>Reklam göstermek, reklam performansını ölçmek ve sahtekârlığı önlemek
 için Google Mobile Ads SDK şu verileri otomatik olarak toplar ve Google ile
 paylaşır: IP adresi (yaklaşık konumu tahmin etmek için), uygulama içi
@@ -80,8 +157,10 @@ sıfırlayarak veya silerek de sınırlayabilirsiniz.</p>
 
 <h2>Üçüncü Taraf Hizmetler</h2>
 <p>Verileriniz şu sağlayıcılarla işlenebilir/paylaşılabilir: Google
-(Firebase, Google Play, AdMob), RevenueCat (abonelik), Meta/Facebook (reklam
-ölçümü) ve Google Gemini (yapay zekâ işleme).</p>
+(Firebase, Google Play, AdMob, Chrome'un ses tanıması), RevenueCat (abonelik),
+Meta/Facebook (reklam ölçümü, yalnızca Android uygulaması), Google Gemini
+(yapay zekâ işleme) ve OpenStreetMap Vakfı (harita görüntüleri, yalnızca
+tarayıcı eklentisi).</p>
 
 <h2>Verilerin Saklandığı Yer</h2>
 <p>Eşitlenen ve paylaşılan görev ve not verileri Google Cloud'un Avrupa'daki
@@ -106,13 +185,19 @@ erişilebilir; ortak çalışma alanlarına yalnızca alanın üyeleri erişebil
   hesabınızı, yedeklerinizi ve buluttaki tüm verilerinizi hemen siler; sahibi
   olduğunuz ortak çalışma alanları silinir, üyesi olduklarınızdan
   çıkarılırsınız. Cihazınızdaki görevleriniz iki durumda da yerinde kalır.</li>
+  <li>Tarayıcı eklentisinde aynı iki seçenek Ayarlar sayfasının sonundaki
+  <b>Bulut verileri</b> bölümündedir. Paylaşılan bir bilgisayarda Ayarlar &gt;
+  Veri Yönetimi'ndeki <b>Bu tarayıcıdaki verileri sil</b> oturumu kapatır ve
+  görevleri, notları, dosyaları ve önbelleği yalnızca o tarayıcıdan siler;
+  buluttaki kopyaya dokunmaz. Eklentiyi tarayıcıdan kaldırdığınızda
+  tarayıcınızdaki eklenti verileri de silinir.</li>
   <li>Uygulamaya erişemiyorsanız silme talebini e-postayla da
   iletebilirsiniz: <a href="hesap-silme.html">Hesap Silme</a>.</li>
 </ul>
 
 <h2>Çocukların Gizliliği</h2>
-<p>Uygulama 18 yaş ve üzeri kullanıcılara yöneliktir; bilerek çocuklardan
-veri toplamaz.</p>
+<p>Uygulama ve eklenti 18 yaş ve üzeri kullanıcılara yöneliktir; çocuklardan
+bilerek veri toplanmaz.</p>
 
 <h2>Değişiklikler ve İletişim</h2>
 <p>Bu politika güncellenebilir. Sorularınız için: deepmailim@gmail.com</p>
